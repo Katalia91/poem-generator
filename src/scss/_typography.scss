@@ -1,0 +1,23 @@
+@use "variables" as *;
+
+body {
+  font-family: var(--primary-font);
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--primary-font);
+    margin-top: 0;
+    line-height: 120%;
+    font-weight: 400;
+  }
+
+  h1 {
+    font-size: var(--font-size-h1);
+  }
+
+  p {
+    font-size: var(--font-size-medium);
+  }
+}

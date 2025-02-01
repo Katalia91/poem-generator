@@ -1,0 +1,48 @@
+//   --light-default: #fcffff;
+//   --pink: #faddf6;
+//   --pink-bg: rgba(250, 221, 246, 0.3);
+//   --text-default: #1c1a24;
+//   --light-1: #e5cbff;
+//   --light-2: #cbffff;
+//   --light-3: #ffb5b5;
+//   --dark-1: #407088;
+//   --dark-2: #132743;
+//   --green-1: #ddfae1;
+//   --blue: #dde8fa;
+
+:root {
+  --bg-color: #fbfbfb;
+  --bg-color-secondary: rgb(232, 249, 255);
+  --primary-color: rgb(197, 186, 255);
+  --secondary-color: rgb(196, 217, 255);
+  --text-color: #071952;
+  --dark-purple: rgb(125, 64, 255); /* Darker purple */
+  --dark-pink: rgb(204, 72, 121); /* Deep pink */
+  --dark-purple-red: rgb(136, 56, 135); /* Dark purple-red */
+
+  // Fonts
+  --primary-font: "Poppins", sans-serif;
+  --secondary-font: "Gaegu", sans-serif;
+  --heading-font: "Bungee Shade", sans-serif;
+
+  // Typography
+  --font-size: 1rem;
+  --font-size-h1: 2.5rem;
+  --font-size-h2: 2rem;
+  --font-size-h3: 1.5rem;
+  --font-size-h4: 1.25rem;
+  --font-size-small: 0.75rem;
+  --font-size-medium: 1.5rem;
+
+  // Typography mobile
+  --mobile-font-size: 0.75rem;
+  --mobile-font-size-h1: 2rem;
+  --mobile-font-size-h2: 1.75rem;
+  --mobile-font-size-h3: 1.25rem;
+  --mobile-font-size-h4: 1rem;
+  --mobile-font-size-small: 0.5rem;
+  --mobile-font-size-medium: 1.25rem;
+}
+// Breakpoints
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1024px;

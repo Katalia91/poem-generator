@@ -3,26 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/style.css" />
+    <link rel="stylesheet" href="src/css/styles.css" />
     <title>AI Poem generator</title>
   </head>
   <body>
-    <header><h1>AI Poem Generator</h1></header>
-
-    <main>
-      <form action="">
-        <label for="prompt">Enter the topic for your poem</label>
-        <input id="prompt" type="text" placeholder="Alpacas" required />
-        <input type="submit" value="Submit" />
-      </form>
-      <div id="poem-content">The poem goes here</div>
-    </main>
-    <footer>
-      This was coded by Natalia Kur and is
-      <a href="https://github.com/Katalia91/poem-generator" target="_blank"
-        >open-sourced on GitHub</a
-      >.
-    </footer>
-    <script src="src/index.js"></script>
+    <div class="container">
+      <header><h1 class="highlight">AI Poem Generator</h1></header>
+      <p>
+        Welcome in the poem generator! All you need to do is to type in a topic,
+        and I will generate a poem for you based on this topic!
+      </p>
+      <main>
+        <form action="">
+          <label for="prompt">Enter the topic for your poem</label>
+          <div class="input-wrapper">
+          <input id="prompt" type="text" placeholder="Alpacas" required />
+          <input class="btn" type="submit" value="Submit" />
+        </div>
+        </form></div>
+        <div class="container">
+          <div id="poem-content" class="poem-content">The poem goes here<br />
+      poem goes here<br />
+    poem goes here</div>
+        </div>
+        <footer class="container">
+          This was coded by <span class="highlight-small">Natalia Kur</span> and
+          is <span class="highlight-small"><a href="https://github.com/Katalia91/poem-generator" target="_blank"
+            >open-sourced on GitHub</a></span></a
+          >.
+        </footer>
+      </main>
+     
+      <script src="src/index.js"></script>
+    </div>
   </body>
 </html>

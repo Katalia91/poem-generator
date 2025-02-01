@@ -1,0 +1,62 @@
+@use "main" as *;
+body {
+  margin-top: 100px;
+  background-color: var(--bg-color-secondary);
+}
+footer {
+  font-size: var(--font-size);
+  margin-top: 1rem;
+  &.container {
+    padding: 1rem 4rem;
+  }
+}
+.container {
+  max-width: 800px;
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 32px;
+  padding: 4rem;
+
+  background-color: var(--bg-color);
+  border-radius: 12px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.app-header {
+  position: relative;
+  z-index: 0;
+}
+
+/*** Highlighter effect
+** credit: https://max.hn/thoughts/how-to-create-a-highlighter-marker-effect-in-css
+***/
+
+.highlight {
+  margin: 0 -0.4em;
+  padding: 0.1em 0.4em;
+  border-radius: 0.8em 0.3em;
+  background: transparent;
+  background-image: linear-gradient(
+    to right,
+    rgb(197, 186, 255),
+    rgba(204, 72, 121, 50%),
+    rgb(232, 249, 255, 0.3)
+  );
+}
+
+.highlight-small {
+  margin: 0 -0.1em;
+  padding: 0.1em 0.7em;
+  border-radius: 0.5em 0.3em 0.3em 0.4em;
+  background: transparent;
+  background-image: linear-gradient(
+    to right,
+    rgb(197, 186, 255, 0.3),
+    rgb(197, 186, 255, 0.3),
+    rgba(232, 249, 255, 0.67)
+  );
+}
+.poem-content {
+  border-left: 3px solid var(--dark-pink);
+  padding-left: 12px;
+}
