@@ -118,8 +118,8 @@ footer.container {
   margin: 0 auto;
   margin-bottom: 32px;
   padding: 4rem;
-  background-color: var(--bg-color);
   border-radius: 12px;
+  background-color: var(--bg-color);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
@@ -148,8 +148,8 @@ footer.container {
 }
 
 .poem-content {
+  border-radius: 0;
   border-left: 3px solid var(--dark-pink);
-  padding-left: 12px;
 }
 
 /*# sourceMappingURL=styles.css.map */

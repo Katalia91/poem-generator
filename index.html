@@ -14,17 +14,14 @@
         and I will generate a poem for you based on this topic!
       </p>
       <main>
-        <form action="">
+        <form id="poem-generator-form" action="">
           <label for="prompt">Enter the topic for your poem</label>
           <div class="input-wrapper">
           <input id="prompt" type="text" placeholder="Alpacas" required />
           <input class="btn" type="submit" value="Submit" />
         </div>
         </form></div>
-        <div class="container">
-          <div id="poem-content" class="poem-content">The poem goes here<br />
-      poem goes here<br />
-    poem goes here</div>
+        <div class="container poem-content" id="poem-content">
         </div>
         <footer class="container">
           This was coded by <span class="highlight-small">Natalia Kur</span> and
@@ -33,7 +30,7 @@
           >.
         </footer>
       </main>
-     
+      <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
       <script src="src/index.js"></script>
     </div>
   </body>
