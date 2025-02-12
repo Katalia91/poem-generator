@@ -1,0 +1,24 @@
+{
+  "name": "poem-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Katalia91/poem-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Katalia91/poem-generator/issues"
+  },
+  "homepage": "https://github.com/Katalia91/poem-generator#readme",
+  "devDependencies": {
+    "sass": "^1.84.0"
+  },
+  "dependencies": {}
+}
