@@ -16,13 +16,13 @@ form {
     @include tablet {
       flex-direction: row;
     }
-    gap: 0.5rem;
+    gap: 1rem;
     margin: 1rem 0;
     input,
     button {
-      padding: 1.125rem;
+      padding: 1rem 2rem;
       border: 0;
-      border-radius: 12px;
+      border-radius: 999px;
       font-size: var(--font-size-medium);
     }
     input:not(.btn) {
@@ -30,13 +30,10 @@ form {
       @include tablet {
         width: 90%;
       }
-      border: 3px solid var(--dark-pink);
+      border: 3px solid var(--dark-pink); 
     }
     .btn {
-      width: 100%;
-      @include tablet {
-        width: 120px;
-      }
+      width: 200px;
       color: var(--text-color);
       background-color: var(--dark-pink);
       cursor: pointer;
