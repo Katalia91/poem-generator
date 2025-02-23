@@ -55,3 +55,10 @@ cd poem-generator
 * 📱 Enhance mobile responsiveness
 
 * (🌙 Implement a dark mode toggle)
+
+## UI iterations
+### Current
+![Monosnap Excalidraw 2025-02-23 17-06-46](https://github.com/user-attachments/assets/68b8777c-445f-4ac4-814d-4b7e7b622141)
+
+### Considered
+![Monosnap Excalidraw 2025-02-23 17-07-58](https://github.com/user-attachments/assets/f388af57-e22f-4eb7-81bc-7096c2566268)
