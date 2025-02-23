@@ -8,19 +8,21 @@
   </head>
   <body>
     <div class="container">
-      <header><h1 class="highlight">AI Poem Generator</h1></header>
+      <header><h1>AI Poem Generator</h1></header>
       <p>
-        Welcome in the poem generator! All you need to do is to type in a topic,
+        Welcome to the poem generator! All you need to do is to type in a topic,
         and I will generate a poem for you based on this topic!
       </p>
       <main>
         <form id="poem-generator-form" action="">
-          <label for="prompt">Enter the topic for your poem</label>
+          <label for="prompt"></label>
           <div class="input-wrapper">
-          <input id="prompt" type="text" placeholder="Alpacas" required />
+          <input id="prompt" type="text" placeholder="Enter the topic of your poem" required />
           <input class="btn" type="submit" value="Submit" />
         </div>
-        </form></div>
+        </form>
+        <div>i.e. "alpaca", "flower", "pineapple"</div>
+    </div>
         <div class="container poem-content hidden" id="poem-content">
         </div>
         <footer class="container">

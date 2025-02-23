@@ -47,7 +47,7 @@ body p {
 }
 
 form {
-  margin-bottom: 32px;
+  margin-bottom: 1rem;
 }
 form label,
 form input {
