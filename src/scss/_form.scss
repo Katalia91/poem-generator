@@ -1,11 +1,10 @@
 @use "mixins" as *;
 
 form {
-  label,
-  input {
-    font-size: var(--font-size-h4);
+  label {
+    font-size: var(--font-size);
     @include tablet {
-      font-size: var(--font-size-h3);
+      font-size: var(--font-size);
     }
   }
   margin-bottom: 1rem;
@@ -23,14 +22,14 @@ form {
       padding: 1rem 2rem;
       border: 0;
       border-radius: 999px;
-      font-size: var(--font-size-medium);
+      font-size: var(--font-size-h4);
     }
     input:not(.btn) {
-      width: 100%;
+      // width: 100%;
       @include tablet {
         width: 90%;
       }
-      border: 3px solid var(--dark-pink); 
+      border: 3px solid var(--dark-pink);
     }
     .btn {
       width: 200px;
@@ -38,6 +37,10 @@ form {
       background-color: var(--dark-pink);
       cursor: pointer;
       color: var(--bg-color);
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        background-color: var(--dark-purple-red);
+      }
     }
   }
 }

@@ -11,14 +11,21 @@
 //   --blue: #dde8fa;
 
 :root {
-  --bg-color: #fbfbfb;
-  --bg-color-secondary: rgb(232, 249, 255);
-  --primary-color: rgb(197, 186, 255);
-  --secondary-color: rgb(196, 217, 255);
+  // --bg-color: #fbfbfb;
+  // --bg-color-secondary: rgb(232, 249, 255);
+  // --primary-color: rgb(197, 186, 255);
+  // --secondary-color: rgb(196, 217, 255);
   --text-color: #071952;
-  --dark-purple: rgb(125, 64, 255); /* Darker purple */
-  --dark-pink: rgb(204, 72, 121); /* Deep pink */
-  --dark-purple-red: rgb(136, 56, 135); /* Dark purple-red */
+  --dark-purple: var(--pink);
+  --dark-pink: var(--primary-color);
+  --dark-purple-red: var(--secondary-color);
+
+  // New palette
+  --bg-color: #fbfbfb;
+  --bg-color-secondary: rgb(247, 214, 208);
+  --primary-color: rgb(218, 82, 141);
+  --secondary-color: rgb(166, 28, 95);
+  --pink: rgb(255, 199, 209);
 
   // Fonts
   --primary-font: "Poppins", sans-serif;

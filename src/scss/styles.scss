@@ -1,21 +1,35 @@
 @use "main" as *;
 body {
   margin-top: 100px;
-  background-color: var(--bg-color-secondary);
+  // background-color: var(--bg-color-secondary);
+  background: rgb(254, 232, 228);
+  background: linear-gradient(
+    90deg,
+    rgba(254, 232, 228, 1) 17%,
+    rgba(255, 199, 209, 1) 50%,
+    rgba(237, 122, 172, 1) 100%
+  );
 }
 footer {
   font-size: var(--font-size);
   margin-top: 1rem;
   &.container {
-    padding: 1rem 4rem;
+    @include tablet {
+      padding: 1rem 4rem;
+    }
   }
 }
 .container {
   max-width: 800px;
   position: relative;
   margin: 0 auto;
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
   padding: 4rem;
+  @include mobile {
+    padding: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 
   border-radius: 12px;
   background-color: var(--bg-color);
@@ -47,17 +61,19 @@ footer {
 
 .highlight-small {
   margin: 0 -0.1em;
-  padding: 0.1em 0.7em;
+  padding: 0.1em 0.3em;
   border-radius: 0.5em 0.3em 0.3em 0.4em;
   background: transparent;
   background-image: linear-gradient(
     to right,
-    rgb(197, 186, 255, 0.3),
-    rgb(197, 186, 255, 0.3),
-    rgba(232, 249, 255, 0.67)
+    rgb(251, 96, 144, 0.3),
+    rgb(255, 199, 209, 0.3),
+    rgba(145, 207, 230, 0.545)
   );
+  @include mobile {
+    background-image: none;
+  }
 }
-
 
 .poem-content {
   border-radius: 0;
@@ -82,5 +98,4 @@ footer {
   70% {
     opacity: 0.7;
   }
-
 }

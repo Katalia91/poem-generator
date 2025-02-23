@@ -1,4 +1,5 @@
 @use "variables" as *;
+@use "mixins" as *;
 
 body {
   font-family: var(--primary-font);
@@ -15,9 +16,15 @@ body {
 
   h1 {
     font-size: var(--font-size-h1);
+    @include mobile {
+      font-size: var(--mobile-font-size-h1);
+    }
   }
 
   p {
     font-size: var(--font-size-medium);
+    @include mobile {
+      font-size: var(--mobile-font-size-medium);
+    }
   }
 }
