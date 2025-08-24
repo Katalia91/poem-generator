@@ -4,24 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/css/styles.css" />
-    <title>AI Poem generator</title>
+    <title>AI Running Plan Generator</title>
   </head>
   <body>
     <div class="container">
-      <header><h1>AI Poem Generator</h1></header>
+      <header><h1>AI Running Plan Generator</h1></header>
       <p>
-        Welcome to the poem generator! All you need to do is to type in a topic,
-        and I will generate a poem for you based on this topic!
-      </p>
+        <b>Welcome to the Running Plan Generator!</b></p>
+        <p>Just type in the distance you’re training for and how many times per week you can train (e.g. “10 km, 3x per week”), and I’ll create a personalized running plan tailored to your needs.</p>
+      <p>Happy running! 🏃‍♀️</p>
+      <small>This tool can generate up to 4 weeks of a training plan at a time.</small>
       <main>
         <form id="poem-generator-form" action="">
           <label for="prompt"></label>
           <div class="input-wrapper">
-          <input id="prompt" type="text" placeholder="Enter the topic of your poem" required />
+          <input id="prompt" type="text" placeholder="Enter the details for your running plan" required />
           <input class="btn" type="submit" value="Submit" />
         </div>
         </form>
-        <div>i.e. "alpaca", "flower", "pineapple"</div>
+        <div>i.e. "5km, 3x week", "marathon, 4x week"</div>
     </div>
         <div class="container poem-content hidden" id="poem-content">
         </div>
