@@ -57,7 +57,7 @@ body p {
   }
 }
 body a {
-  color: black !important;
+  color: inherit;
 }
 
 form {
