@@ -56,6 +56,9 @@ body p {
     font-size: var(--mobile-font-size-medium);
   }
 }
+body a {
+  color: black !important;
+}
 
 form {
   margin-bottom: 1rem;
