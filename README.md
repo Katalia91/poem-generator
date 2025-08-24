@@ -2,13 +2,14 @@
 
 ## Overview
 
-AI Poem Generator is a simple web application built with Vanilla JavaScript that allows users to generate short AI-generated poems based on a given topic. Users can enter a topic, and the app will create a six-line poem using an AI API.
+AI Running Plan Generator is a simple web application built with Vanilla JavaScript that allows users to generate personalized running plans based on their training goals. Users can enter the distance they want to train for and how many times per week they can run, and the app will create a running plan that fits these needs.
 
+This tool can generate up to 4 weeks of a training plan at a time.
 ## Features
 
-- **Custom Poem Generation**: Input a topic to generate a custom poem.
+- **Custom Running Plan**: Input your distance and weekly training frequency to generate a personalized plan.
 
-- **Dynamic Display**: AI-generated poems are shown with a typewriter effect.
+- **Dynamic Display**: AI-generated plans are shown with a typewriter effect.
 
 - **User-Friendly Interface**: Simple and clean UI for ease of use.
 
@@ -20,7 +21,7 @@ AI Poem Generator is a simple web application built with Vanilla JavaScript that
 
 - **Libraries**: Axios for API requests, Typewriter Effect for animations
 
-- **AI Integration**: SheCodes AI API for poem generation
+- **AI Integration**: SheCodes AI API for generating running plans
 
 ## Installation
 
@@ -51,11 +52,9 @@ npm run sass
 
 ## Usage
 
-1. Enter a Topic: Type a subject into the input field.
-
-2. Generate a Poem: Click "Submit" to generate a poem.
-
-3. View the Poem: The AI will return a short poem formatted with proper line breaks.
+1. Enter training details: Type in the distance you want to train for and how many times per week you can run (e.g., “10 km, 3x per week”).
+2. Generate Plan: Click "Submit" to create your running plan.
+3. View Plan: The AI will return a structured training plan for up to 4 weeks.
 
 ## To-Do List
 
@@ -71,8 +70,9 @@ npm run sass
 
 ### Current
 
-![Monosnap Excalidraw 2025-02-23 17-06-46](https://github.com/user-attachments/assets/68b8777c-445f-4ac4-814d-4b7e7b622141)
+![running plan generator](https://github.com/user-attachments/assets/73dfba69-3ecf-461d-9726-1bb3305fd7ec)
 
-### Considered
+
+### Considered (version: poem generator)
 
 ![Monosnap Excalidraw 2025-02-23 17-07-58](https://github.com/user-attachments/assets/f388af57-e22f-4eb7-81bc-7096c2566268)
